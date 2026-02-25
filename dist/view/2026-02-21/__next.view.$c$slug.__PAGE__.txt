@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[42424,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"FileTree"]
+3:I[38121,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"Breadcrumbs"]
+4:I[70416,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"MarkdownViewer"]
+a:I[97367,["/_next/static/chunks/c4c79d5d0b280aeb.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["/_next/static/chunks/99b8282c8baf68a5.css","style"]
+5:Tba7,# 2026-02-21 — Session Notes
+
+## What Happened Today (Long Session)
+
+### Shiny Pokemon Hunter App for Jo — COMPLETED ✅
+- **Repo:** https://github.com/LearningEverythingFirstTIme/shiny-hunting-app-za
+- **Stack:** SvelteKit + Firebase + Tailwind + DaisyUI
+- **Features:** Pokedex (230 Z-A Pokemon), Hunt Tracker, My Shinies, Hunt Tips, Stats
+- **Theme:** Sylveon aesthetic (pinks, blues, cream whites)
+- **Auth:** Email/password + Google sign-in
+- **Mobile-first** with hamburger navigation
+- **Status:** Deployed and working
+
+### Jim's Finance App Rebuild — COMPLETED ✅
+- **Repo:** https://github.com/LearningEverythingFirstTIme/jim-finance-app-v3
+- **Stack:** SvelteKit + Supabase (existing) + Tailwind + Chart.js
+- **Features:** Dashboard, Add Transaction, Transactions List, Recurring Bills, CSV Import, Reports
+- **Visual polish:** Professional blue palette, Inter + Plus Jakarta Sans fonts
+- **Key fix:** Dashboard charts display immediately on login
+- **Auth:** Password-only login (hardcoded email: jim@finance.app)
+- **Important:** Layout.ts auth check disabled to prevent reload loop — app is single-user only
+- **Status:** Deployed and working
+
+### AA Tracker App — FIXED ✅
+- Fixed "Check In Now" button to allow multiple check-ins per day
+- Removed daily check-in restriction for Jim's use case
+
+### Excel Tips Automation — FIXED ✅
+- Fixed cron job to send to Discord channel (ai-notifications: 1474399095279063150)
+- Format: One function, 5 minutes, daily at 7 AM EST
+- Also set up afternoon reminder at 1:30 PM EST
+
+### Nick's Context Updates
+- **Wife:** Jo (artist, shiny hunts in Pokemon)
+- **Dad:** Pete (building Orange County Fair Speedway website — recommend Google Sites)
+- **Sponsor:** Jim (traveling to Washington, finance app is his)
+- **Location:** Sparta, New Jersey, USA (EST timezone)
+- **Work:** Data analyst at HFA (Total Plan Manager platform)
+- **Goals:** Learn Excel (daily tips), Python, Streamlit
+- **AA Role:** Treasurer for large group
+- **Sobriety:** June 3rd, 2023
+
+### Active Projects
+| Project | Status | URL | Notes |
+|---------|--------|-----|-------|
+| AA Tracker | Live | aa-tracker-v2.vercel.app | Multi-check-in fixed |
+| Shiny Hunter | Live | shiny-hunting-app-za.vercel.app | For Jo, Sylveon theme |
+| Jim Finance | Live | jim-finance-app-v3.vercel.app | Single-user, no auth guard |
+
+### Environment Variables Pattern (for Vercel + SvelteKit + Supabase)
+- Use `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`
+- Access via `import.meta.env.VITE_*` in browser
+- Move SvelteKit deps to `dependencies` (not devDependencies) for Vercel
+- Disable `data-sveltekit-preload-data` if causing issues
+
+### Lessons Learned
+- SvelteKit auth guards can cause reload loops — disable for single-user apps
+- Vercel needs deps in `dependencies` not `devDependencies`
+- `import.meta.env` requires `VITE_` prefix, accessed directly (not through functions)
+
+### Next Up
+- Whatever Nick wants to build next
+
+---
+*Written: 2026-02-21*
+0:{"buildId":"uBkkrVcvAXMDjDcLDDCt7","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen","children":[["$","aside",null,{"className":"w-72 bg-stone-100 border-r border-stone-200 flex flex-col fixed h-full","children":[["$","div",null,{"className":"p-4 border-b border-stone-200","children":[["$","a",null,{"href":"/","className":"block","children":["$","h1",null,{"className":"text-lg font-semibold text-stone-800","children":"Memory Bridge"}]}],["$","p",null,{"className":"text-xs text-stone-500 mt-1","children":"Archival memory viewer"}]]}],["$","$L2",null,{"categories":[{"id":"state","label":"State","files":[{"name":"SESSION-STATE.md","path":"SESSION-STATE","category":"state","lastModified":"2026-02-25T16:50:07.763Z","size":5056}]},{"id":"memory","label":"Memory","files":[{"name":"MEMORY.md","path":"MEMORY","category":"memory","lastModified":"2026-02-25T16:50:07.765Z","size":2466}]},{"id":"journal","label":"Journal","files":[{"name":"2026-02-25.md","path":"journal/2026-02-25","category":"journal","lastModified":"2026-02-25T16:50:07.768Z","size":859},{"name":"2026-02-24.md","path":"journal/2026-02-24","category":"journal","lastModified":"2026-02-25T16:50:07.768Z","size":1154}]},{"id":"capture","label":"Capture","files":[{"name":"2026-02-25.md","path":"capture/2026-02-25","category":"capture","lastModified":"2026-02-25T16:50:07.772Z","size":1010},{"name":"2026-02-25.archived.md","path":"capture/2026-02-25.archived","category":"capture","lastModified":"2026-02-25T16:50:07.772Z","size":251},{"name":"2026-02-25.1771985107.archived.md","path":"capture/2026-02-25.1771985107.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1637},{"name":"2026-02-25.1771984952.archived.md","path":"capture/2026-02-25.1771984952.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":733},{"name":"2026-02-24.md","path":"capture/2026-02-24","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1797},{"name":"2026-02-24.archived.md","path":"capture/2026-02-24.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1425}]},{"id":"notes","label":"Daily Notes","files":[{"name":"2026-02-22.md","path":"2026-02-22","category":"notes","lastModified":"2026-02-25T16:50:07.779Z","size":3162},{"name":"2026-02-21.md","path":"2026-02-21","category":"notes","lastModified":"2026-02-25T16:50:07.777Z","size":2983},{"name":"2026-02-20.md","path":"2026-02-20","category":"notes","lastModified":"2026-02-25T16:50:07.775Z","size":1167}]}]}],["$","div",null,{"className":"p-4 border-t border-stone-200 text-xs text-stone-400","children":["Last synced: ","2/26/2026, 12:50:07 AM"]}]]}],["$","main",null,{"className":"flex-1 ml-72 p-8","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","$L3",null,{"path":"2026-02-21"}],["$","div",null,{"className":"bg-white rounded-lg border border-stone-200 p-8","children":["$","$L4",null,{"content":"$5"}]}]]}]}]]}],["$L6","$L7","$L8"],"$L9"]}],"loading":null,"isPartial":false}
+6:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/99b8282c8baf68a5.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4b18aebaf245b752.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/02f584154348a9bb.js","async":true}]
+9:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

@@ -1,0 +1,98 @@
+"use client";
+
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeHighlight from "rehype-highlight";
+import "highlight.js/styles/github.css";
+
+interface MarkdownViewerProps {
+  content: string;
+}
+
+export function MarkdownViewer({ content }: MarkdownViewerProps) {
+  return (
+    <article className="prose prose-stone max-w-none">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeHighlight]}
+        components={{
+          h1: ({ children }) => (
+            <h1 className="text-3xl font-bold text-stone-900 mb-6 pb-2 border-b border-stone-200">
+              {children}
+            </h1>
+          ),
+          h2: ({ children }) => (
+            <h2 className="text-2xl font-semibold text-stone-800 mt-8 mb-4">
+              {children}
+            </h2>
+          ),
+          h3: ({ children }) => (
+            <h3 className="text-xl font-semibold text-stone-700 mt-6 mb-3">
+              {children}
+            </h3>
+          ),
+          p: ({ children }) => (
+            <p className="text-stone-600 leading-relaxed mb-4">{children}</p>
+          ),
+          ul: ({ children }) => (
+            <ul className="list-disc list-inside text-stone-600 mb-4 space-y-1">
+              {children}
+            </ul>
+          ),
+          ol: ({ children }) => (
+            <ol className="list-decimal list-inside text-stone-600 mb-4 space-y-1">
+              {children}
+            </ol>
+          ),
+          li: ({ children }) => <li className="text-stone-600">{children}</li>,
+          code: ({ children, className }) => {
+            const isInline = !className;
+            return isInline ? (
+              <code className="bg-stone-100 text-stone-800 px-1.5 py-0.5 rounded text-sm font-mono">
+                {children}
+              </code>
+            ) : (
+              <pre className="bg-stone-900 text-stone-100 p-4 rounded-lg overflow-x-auto mb-4">
+                <code className={className}>{children}</code>
+              </pre>
+            );
+          },
+          blockquote: ({ children }) => (
+            <blockquote className="border-l-4 border-stone-300 pl-4 italic text-stone-500 mb-4">
+              {children}
+            </blockquote>
+          ),
+          a: ({ children, href }) => (
+            <a
+              href={href}
+              className="text-stone-700 underline hover:text-stone-900"
+              target={href?.startsWith("http") ? "_blank" : undefined}
+              rel={href?.startsWith("http") ? "noopener noreferrer" : undefined}
+            >
+              {children}
+            </a>
+          ),
+          table: ({ children }) => (
+            <table className="w-full border-collapse mb-4">{children}</table>
+          ),
+          thead: ({ children }) => (
+            <thead className="bg-stone-100">{children}</thead>
+          ),
+          th: ({ children }) => (
+            <th className="border border-stone-200 px-4 py-2 text-left font-semibold text-stone-700">
+              {children}
+            </th>
+          ),
+          td: ({ children }) => (
+            <td className="border border-stone-200 px-4 py-2 text-stone-600">
+              {children}
+            </td>
+          ),
+          hr: () => <hr className="border-stone-200 my-6" />,
+        }}
+      >
+        {content}
+      </ReactMarkdown>
+    </article>
+  );
+}

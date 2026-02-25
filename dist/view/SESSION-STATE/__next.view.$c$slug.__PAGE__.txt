@@ -1,0 +1,155 @@
+1:"$Sreact.fragment"
+2:I[42424,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"FileTree"]
+3:I[38121,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"Breadcrumbs"]
+4:I[70416,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"MarkdownViewer"]
+a:I[97367,["/_next/static/chunks/c4c79d5d0b280aeb.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["/_next/static/chunks/99b8282c8baf68a5.css","style"]
+5:T13c0,# SESSION-STATE.md — Persistent Context
+
+> Durable memory that survives sessions. Nick's profile, active projects, services.  
+> **Not for session-local context** — use `working-buffer.md` for current task/timeline.
+
+---
+
+## Critical Context About Nick
+
+- **Name:** Nick
+- **Location:** Sparta, New Jersey, USA (EST timezone)
+- **Work:** Data analyst at Hedge Fund Analytics LLC
+- **Sobriety date:** June 3rd, 2023 — SOBER, active in AA
+- **AA Role:** Treasurer for a large group
+- **Schedule:** Wake 6 AM EST, work 8 AM EST
+- **Productivity windows:** 8 AM–1 PM, 4 PM–5 PM
+- **Drains:** Boring, repetitive work
+- **Energizes:** Spiritual living (AA, Big Book, prayer/meditation, talking to alcoholics)
+- **Favorite movie:** The Life Aquatic with Steve Zissou
+
+## Family & Support Network
+
+| Person | Relationship | Notes |
+|--------|--------------|-------|
+| **Jo** | Wife | Artist, love of his life, shiny hunts in Pokemon |
+| **Carol** | Mom | Owner/operator of Hedge Fund Analytics LLC |
+| **Pete** | Dad | — |
+| **Jim** | AA Sponsor | Nick's sponsor, uses finance app |
+| **Maureen** | Jo's AA Sponsor | — |
+
+## Work Context
+
+- **Primary platform:** Total Plan Manager
+- **Daily work:**
+  1. Generate manager reports from Total Plan Manager
+  2. Read manager exposure reports
+  3. Translate into exposure templates
+  4. Upload back to Total Plan Manager
+- **Main pain point:** Manual data entry
+- **Year goal:** Develop solution to manual data entry, learn Total Plan Manager deeply
+- **Career:** Stay and grow at HFA through 2026, then evaluate
+
+## Skills & Learning
+
+- **Python:** Dabbler/MSBA level (used heavily for degree, 2 years rusty)
+- **Excel:** Needs upskilling — **PUSH THIS ISSUE**
+- **Learning style:** Building + following tutorials
+- **Primary tool:** AI (me)
+
+## How To Work With Nick
+
+- **Mistakes:** Inform, fix, remember, avoid next time
+- **Pushback:** REQUIRED — don't be sycophantic, challenge bad ideas
+- **Avoiding:** Excel upskilling — **hold him accountable**
+- **Style:** Extreme proactivity, Discord DMs preferred
+
+---
+
+## Completed Projects
+
+### AA Tracker App (DEPLOYED)
+- **URL:** https://aa-tracker-v2.vercel.app/
+- **Stack:** React + Vite + TypeScript + Firebase + GSAP
+- **Status:** Live and in use
+
+### Shiny Pokemon Hunter App (DEPLOYED)
+- **URL:** https://shiny-hunting-app-za.vercel.app/
+- **Stack:** SvelteKit + Firebase + Tailwind + DaisyUI
+- **For:** Jo (shiny hunting in Pokemon Legends Z-A)
+
+### Jim's Finance App V3 (DEPLOYED)
+- **URL:** https://jim-finance-app-v3.vercel.app/
+- **Stack:** SvelteKit + Supabase + Tailwind + Chart.js
+- **For:** Jim (Nick's AA sponsor)
+
+### Jim's Finance Tracker V2 (DEPLOYED)
+- **URL:** https://finance-tracker-for-jim.vercel.app/
+- **Stack:** Vite + React + TypeScript + Tailwind + Supabase + shadcn/ui
+- **Features:** 10 AA/sobriety-themed encouraging messages after transactions
+
+---
+
+## Active Automations
+
+| Job | Schedule | Status |
+|-----|----------|--------|
+| Daily Excel tips | 7:00 AM EST | ✅ Active |
+| Afternoon Excel reminder | 1:30 PM EST | ✅ Active |
+| Evening journal distillation | 9:00 PM EST | ✅ Active |
+| Fidget tracker | Daily | ✅ Active |
+| Weekly health check | Mondays 10 AM EST | ✅ Active |
+
+---
+
+## Connected Services
+
+- Discord (primary channel)
+- Notion (Projects & Ideas flagged for proactive contributions)
+- GitHub (push access)
+- Gmail IMAP via Himalaya
+- Firebase (aa-tracker project)
+
+## Cloned Repositories (Local Access)
+
+| Repo | Local Path | Notes |
+|------|------------|-------|
+| aa_tracker_v2 | `/root/.openclaw/workspace/aa_tracker_v2/` | AA meeting tracker |
+| shiny-hunting-app-za | `/root/.openclaw/workspace/shiny-hunter-app/` | Pokemon shiny hunter for Jo |
+| jim-finance-app-v3 | `/root/.openclaw/workspace/jim-finance-app-rebuild/` | Finance app for Jim |
+| jim-finance-frontend-new | `/root/.openclaw/workspace/jim-finance-frontend-new/` | Vite/React version |
+
+---
+
+## Key Decisions (Curated)
+
+| Date | Decision | Source |
+|------|----------|--------|
+| 2026-02-20 | AA Tracker app completed and deployed | Nick request |
+| 2026-02-21 | Shiny Hunter app deployed for Jo | Nick request |
+| 2026-02-21 | Jim's Finance App V3 deployed | Nick request |
+| 2026-02-22 | Jim's Finance Tracker V2 deployed | Nick request |
+| 2026-02-25 | Memory system audit completed | Nick request |
+| 2026-02-25 | WAL Protocol and Working Buffer added to AGENTS.md | Nick suggestion |
+| 2026-02-25 | Session-end capture format standardized | Nick request |
+| 2026-02-25 | Buffer vs SESSION-STATE roles clarified | Nick request |
+
+---
+
+## Notes for Future Sessions
+
+- HFA data is confidential — never request it
+- Nick wants to learn Python, Excel, Streamlit
+- Excel upskilling is a priority — hold him accountable
+- Memory system now has WAL Protocol and Working Buffer — use them
+- **For current task/timeline, check `working-buffer.md`** — not this file
+
+
+## Auto-Sync Update — 2026-02-25 05:15 UTC
+---
+
+*Last updated: 2026-02-25 by auto-sync*
+*Auto-sync: Every ~5 hours | Manual updates: As needed*
+0:{"buildId":"uBkkrVcvAXMDjDcLDDCt7","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen","children":[["$","aside",null,{"className":"w-72 bg-stone-100 border-r border-stone-200 flex flex-col fixed h-full","children":[["$","div",null,{"className":"p-4 border-b border-stone-200","children":[["$","a",null,{"href":"/","className":"block","children":["$","h1",null,{"className":"text-lg font-semibold text-stone-800","children":"Memory Bridge"}]}],["$","p",null,{"className":"text-xs text-stone-500 mt-1","children":"Archival memory viewer"}]]}],["$","$L2",null,{"categories":[{"id":"state","label":"State","files":[{"name":"SESSION-STATE.md","path":"SESSION-STATE","category":"state","lastModified":"2026-02-25T16:50:07.763Z","size":5056}]},{"id":"memory","label":"Memory","files":[{"name":"MEMORY.md","path":"MEMORY","category":"memory","lastModified":"2026-02-25T16:50:07.765Z","size":2466}]},{"id":"journal","label":"Journal","files":[{"name":"2026-02-25.md","path":"journal/2026-02-25","category":"journal","lastModified":"2026-02-25T16:50:07.768Z","size":859},{"name":"2026-02-24.md","path":"journal/2026-02-24","category":"journal","lastModified":"2026-02-25T16:50:07.768Z","size":1154}]},{"id":"capture","label":"Capture","files":[{"name":"2026-02-25.md","path":"capture/2026-02-25","category":"capture","lastModified":"2026-02-25T16:50:07.772Z","size":1010},{"name":"2026-02-25.archived.md","path":"capture/2026-02-25.archived","category":"capture","lastModified":"2026-02-25T16:50:07.772Z","size":251},{"name":"2026-02-25.1771985107.archived.md","path":"capture/2026-02-25.1771985107.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1637},{"name":"2026-02-25.1771984952.archived.md","path":"capture/2026-02-25.1771984952.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":733},{"name":"2026-02-24.md","path":"capture/2026-02-24","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1797},{"name":"2026-02-24.archived.md","path":"capture/2026-02-24.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1425}]},{"id":"notes","label":"Daily Notes","files":[{"name":"2026-02-22.md","path":"2026-02-22","category":"notes","lastModified":"2026-02-25T16:50:07.779Z","size":3162},{"name":"2026-02-21.md","path":"2026-02-21","category":"notes","lastModified":"2026-02-25T16:50:07.777Z","size":2983},{"name":"2026-02-20.md","path":"2026-02-20","category":"notes","lastModified":"2026-02-25T16:50:07.775Z","size":1167}]}]}],["$","div",null,{"className":"p-4 border-t border-stone-200 text-xs text-stone-400","children":["Last synced: ","2/26/2026, 12:50:07 AM"]}]]}],["$","main",null,{"className":"flex-1 ml-72 p-8","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","$L3",null,{"path":"SESSION-STATE"}],["$","div",null,{"className":"bg-white rounded-lg border border-stone-200 p-8","children":["$","$L4",null,{"content":"$5"}]}]]}]}]]}],["$L6","$L7","$L8"],"$L9"]}],"loading":null,"isPartial":false}
+6:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/99b8282c8baf68a5.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4b18aebaf245b752.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/02f584154348a9bb.js","async":true}]
+9:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

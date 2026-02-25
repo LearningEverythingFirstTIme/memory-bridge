@@ -1,0 +1,92 @@
+1:"$Sreact.fragment"
+2:I[42424,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"FileTree"]
+3:I[38121,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"Breadcrumbs"]
+4:I[70416,["/_next/static/chunks/4b18aebaf245b752.js","/_next/static/chunks/02f584154348a9bb.js"],"MarkdownViewer"]
+a:I[97367,["/_next/static/chunks/c4c79d5d0b280aeb.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["/_next/static/chunks/99b8282c8baf68a5.css","style"]
+5:Tc5a,# Session Learnings - 2026-02-22
+
+## Critical Corrections & Decisions
+
+### GitHub Token Storage
+- **What:** User reminded me I DO have their GitHub token stored
+- **Where:** `~/.config/github/token`
+- **Lesson:** Check existing credentials before claiming they're missing
+- **Status:** Token now confirmed working for pushes
+
+### Notion Page Permissions
+- **What:** Moving pages in Notion breaks integration access
+- **Context:** User moved KimiClaw Capabilities Guide to Private Pages
+- **Lesson:** When user moves pages, I lose API access to them
+- **Action:** User now understands this limitation
+
+### AA Content Sourcing
+- **What:** User wanted AA quotes from "public AA members"
+- **Decision:** I pushed back on using Grapevine authors (anonymity concerns)
+- **Resolution:** User accepted using only conference-approved literature
+- **Lesson:** User respects my boundaries on anonymity/privacy
+
+### Excel Reminders Cancellation
+- **What:** User asked to stop daily Excel tips at 7AM
+- **Reason:** Getting repeats, already learning independently
+- **Action:** Removed both daily and afternoon Excel cron jobs
+- **Lesson:** User prefers self-directed learning over automated prompts
+
+## User Preferences Observed
+
+### Communication Style
+- Appreciates directness: "I was just micromanaging you basically" — self-aware
+- Wants concise documentation: "tighten it up to reduce any fluff"
+- Values thoroughness when it matters: gave me 2 hours for AA Steps site
+
+### Work Patterns
+- Morning person (6AM wake, 8AM work)
+- Likes to sit on projects before starting: "sit on it for a couple days before getting brave"
+- One project at a time, deep focus
+- EST timezone (Sparta, NJ) — snow day today, 12" expected
+
+### Technical Comfort
+- Comfortable with GitHub, Vercel, Notion
+- Learning Python, Excel, data analytics
+- Building Streamlit apps for work automation
+- Wants to build home server (Pi 5) — has comprehensive guide now
+
+## Active Projects
+
+1. **Home Server Setup** — Guide complete, user researching hardware
+2. **AA Steps Site** — Deployed on Vercel, user requested minor spacing tweaks
+3. **Fidget Tracker** — Built and running, cron scheduled for 2-hour checks
+4. **KimiClaw Capabilities Guide** — Created for Mom, moved to Private Pages
+
+## Tools Working Well
+- Notion integration (when pages stay accessible)
+- GitHub pushes (with correct token)
+- Vercel deployments
+- Cron scheduling
+- Sub-agent spawning for complex builds
+
+## Tools With Friction
+- Himalaya email CLI — syntax changed (`list` → `envelope list`), needs monitoring
+- Notion page access — breaks when user moves pages to private areas
+
+## Relationship Notes
+- User treats me as collaborator, not just tool
+- Appreciates when I push back on bad ideas
+- Values proactivity but wants control over final decisions
+- Sobriety date: June 3rd, 2023 — AA treasurer role
+
+## Next Session Reminders
+- Check if AA Steps site needs any final tweaks
+- Follow up on home server hardware purchase timeline
+- Monitor fidget tracker for first successful detection
+- Be ready to help Mom onboarding when that happens
+
+---
+*Logged via WAL Protocol — write first, respond second*
+0:{"buildId":"uBkkrVcvAXMDjDcLDDCt7","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen","children":[["$","aside",null,{"className":"w-72 bg-stone-100 border-r border-stone-200 flex flex-col fixed h-full","children":[["$","div",null,{"className":"p-4 border-b border-stone-200","children":[["$","a",null,{"href":"/","className":"block","children":["$","h1",null,{"className":"text-lg font-semibold text-stone-800","children":"Memory Bridge"}]}],["$","p",null,{"className":"text-xs text-stone-500 mt-1","children":"Archival memory viewer"}]]}],["$","$L2",null,{"categories":[{"id":"state","label":"State","files":[{"name":"SESSION-STATE.md","path":"SESSION-STATE","category":"state","lastModified":"2026-02-25T16:50:07.763Z","size":5056}]},{"id":"memory","label":"Memory","files":[{"name":"MEMORY.md","path":"MEMORY","category":"memory","lastModified":"2026-02-25T16:50:07.765Z","size":2466}]},{"id":"journal","label":"Journal","files":[{"name":"2026-02-25.md","path":"journal/2026-02-25","category":"journal","lastModified":"2026-02-25T16:50:07.768Z","size":859},{"name":"2026-02-24.md","path":"journal/2026-02-24","category":"journal","lastModified":"2026-02-25T16:50:07.768Z","size":1154}]},{"id":"capture","label":"Capture","files":[{"name":"2026-02-25.md","path":"capture/2026-02-25","category":"capture","lastModified":"2026-02-25T16:50:07.772Z","size":1010},{"name":"2026-02-25.archived.md","path":"capture/2026-02-25.archived","category":"capture","lastModified":"2026-02-25T16:50:07.772Z","size":251},{"name":"2026-02-25.1771985107.archived.md","path":"capture/2026-02-25.1771985107.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1637},{"name":"2026-02-25.1771984952.archived.md","path":"capture/2026-02-25.1771984952.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":733},{"name":"2026-02-24.md","path":"capture/2026-02-24","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1797},{"name":"2026-02-24.archived.md","path":"capture/2026-02-24.archived","category":"capture","lastModified":"2026-02-25T16:50:07.771Z","size":1425}]},{"id":"notes","label":"Daily Notes","files":[{"name":"2026-02-22.md","path":"2026-02-22","category":"notes","lastModified":"2026-02-25T16:50:07.779Z","size":3162},{"name":"2026-02-21.md","path":"2026-02-21","category":"notes","lastModified":"2026-02-25T16:50:07.777Z","size":2983},{"name":"2026-02-20.md","path":"2026-02-20","category":"notes","lastModified":"2026-02-25T16:50:07.775Z","size":1167}]}]}],["$","div",null,{"className":"p-4 border-t border-stone-200 text-xs text-stone-400","children":["Last synced: ","2/26/2026, 12:50:07 AM"]}]]}],["$","main",null,{"className":"flex-1 ml-72 p-8","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","$L3",null,{"path":"2026-02-22"}],["$","div",null,{"className":"bg-white rounded-lg border border-stone-200 p-8","children":["$","$L4",null,{"content":"$5"}]}]]}]}]]}],["$L6","$L7","$L8"],"$L9"]}],"loading":null,"isPartial":false}
+6:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/99b8282c8baf68a5.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4b18aebaf245b752.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/02f584154348a9bb.js","async":true}]
+9:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null
