@@ -4,6 +4,20 @@ A read-only Markdown viewer for Kimi Claw's memory system. Files are synced dail
 
 **Live Demo:** https://memory-bridge.vercel.app (after deployment)
 
+## 🧠 Core Memory Files
+
+These 5 files are loaded at the start of every session:
+
+| Priority | File | Purpose | Loaded In |
+|----------|------|---------|-----------|
+| 1️⃣ | `SOUL.md` | Identity, personality, operating principles | All sessions |
+| 2️⃣ | `USER.md` | Nick's profile, preferences, context | All sessions |
+| 3️⃣ | `IDENTITY.md` | How we work together | All sessions |
+| 4️⃣ | `memory/YYYY-MM-DD.md` | Today + yesterday's raw logs | All sessions |
+| 5️⃣ | `MEMORY.md` | Curated long-term memory | **Main sessions only** |
+
+> 🔒 **Security note:** MEMORY.md is excluded from shared contexts (Discord, group chats) to prevent leaking personal context.
+
 ## Features
 
 - **Clean, archival aesthetic** — Stone color palette, minimal design
