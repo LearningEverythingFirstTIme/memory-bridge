@@ -10,10 +10,10 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
   const segments = path.split("/").filter(Boolean);
 
   return (
-    <nav className="flex items-center gap-2 text-sm text-stone-500 mb-6">
+    <nav className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
       <a
         href="/"
-        className="flex items-center gap-1 hover:text-stone-700 transition-colors"
+        className="flex items-center gap-1 hover:text-foreground transition-colors"
       >
         <Home className="w-4 h-4" />
         <span>Home</span>
@@ -27,11 +27,11 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
           <div key={index} className="flex items-center gap-2">
             <ChevronRight className="w-4 h-4" />
             {isLast ? (
-              <span className="text-stone-800 font-medium">{segment}</span>
+              <span className="text-foreground font-medium">{segment}</span>
             ) : (
               <a
                 href={href}
-                className="hover:text-stone-700 transition-colors"
+                className="hover:text-foreground transition-colors"
               >
                 {segment}
               </a>

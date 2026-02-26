@@ -44,7 +44,7 @@ export function FileTree({ categories }: FileTreeProps) {
           <li key={category.id}>
             <button
               onClick={() => toggleCategory(category.id)}
-              className="w-full flex items-center gap-2 px-2 py-1.5 text-sm font-medium text-stone-600 hover:bg-stone-200 rounded-md transition-colors"
+              className="w-full flex items-center gap-2 px-2 py-1.5 text-sm font-medium text-muted-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground rounded-md transition-colors"
             >
               {expanded.has(category.id) ? (
                 <ChevronDown className="w-4 h-4" />
@@ -52,7 +52,7 @@ export function FileTree({ categories }: FileTreeProps) {
                 <ChevronRight className="w-4 h-4" />
               )}
               <span>{category.label}</span>
-              <span className="ml-auto text-xs text-stone-400">
+              <span className="ml-auto text-xs text-muted-foreground">
                 {category.files.length}
               </span>
             </button>
@@ -63,7 +63,7 @@ export function FileTree({ categories }: FileTreeProps) {
                   <li key={file.path}>
                     <a
                       href={`/view/${file.path}/`}
-                      className="flex items-center gap-2 px-2 py-1.5 text-sm text-stone-500 hover:text-stone-800 hover:bg-stone-200 rounded-md transition-colors"
+                      className="flex items-center gap-2 px-2 py-1.5 text-sm text-muted-foreground hover:text-sidebar-foreground hover:bg-sidebar-accent rounded-md transition-colors"
                     >
                       <FileText className="w-3.5 h-3.5 flex-shrink-0" />
                       <span className="truncate">{file.name}</span>

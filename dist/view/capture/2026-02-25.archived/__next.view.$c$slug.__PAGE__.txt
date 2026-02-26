@@ -1,12 +1,13 @@
 1:"$Sreact.fragment"
-2:I[36909,["/_next/static/chunks/3b36c3f7008644c1.js","/_next/static/chunks/02f584154348a9bb.js"],"SearchBox"]
-27:I[42424,["/_next/static/chunks/3b36c3f7008644c1.js","/_next/static/chunks/02f584154348a9bb.js"],"FileTree"]
-28:I[38121,["/_next/static/chunks/3b36c3f7008644c1.js","/_next/static/chunks/02f584154348a9bb.js"],"Breadcrumbs"]
-29:I[70416,["/_next/static/chunks/3b36c3f7008644c1.js","/_next/static/chunks/02f584154348a9bb.js"],"MarkdownViewer"]
-2a:I[97367,["/_next/static/chunks/c4c79d5d0b280aeb.js"],"OutletBoundary"]
-2b:"$Sreact.suspense"
-:HL["/_next/static/chunks/99b8282c8baf68a5.css","style"]
-3:T665,# session capture — 2026-02-25
+2:I[2330,["/_next/static/chunks/46d69eb9f0c0ac66.js","/_next/static/chunks/fb109ae069905825.js","/_next/static/chunks/183e03f3d15cef2f.js"],"ThemeToggle"]
+3:I[36909,["/_next/static/chunks/46d69eb9f0c0ac66.js","/_next/static/chunks/fb109ae069905825.js","/_next/static/chunks/183e03f3d15cef2f.js"],"SearchBox"]
+28:I[42424,["/_next/static/chunks/46d69eb9f0c0ac66.js","/_next/static/chunks/fb109ae069905825.js","/_next/static/chunks/183e03f3d15cef2f.js"],"FileTree"]
+29:I[38121,["/_next/static/chunks/46d69eb9f0c0ac66.js","/_next/static/chunks/fb109ae069905825.js","/_next/static/chunks/183e03f3d15cef2f.js"],"Breadcrumbs"]
+2a:I[70416,["/_next/static/chunks/46d69eb9f0c0ac66.js","/_next/static/chunks/fb109ae069905825.js","/_next/static/chunks/183e03f3d15cef2f.js"],"MarkdownViewer"]
+2b:I[97367,["/_next/static/chunks/c4c79d5d0b280aeb.js"],"OutletBoundary"]
+2c:"$Sreact.suspense"
+:HL["/_next/static/chunks/abb188bd6a58f69b.css","style"]
+4:T665,# session capture — 2026-02-25
 
 ## summary
 comprehensive memory system audit and improvements. clarified working buffer vs session-state roles and standardized session-end capture format.
@@ -36,7 +37,7 @@ comprehensive memory system audit and improvements. clarified working buffer vs 
 - memory-quickref.md: startup routine, key files table, context recovery
 - session-state.md: cleaned of session-local content, focused on persistent context
 - working-buffer.md: fresh template with role clarification
-4:T705,# capture log - 2026-02-24
+5:T705,# capture log - 2026-02-24
 
 ## session summary
 long productive session with nick. multiple projects discussed and completed.
@@ -89,7 +90,7 @@ excited, productive, satisfied with datalens outcome
 
 ---
 *session ended with nick starting fresh session*
-5:T591,- [09:15] [decision] deployed evening journal system with automated 9 pm distillation
+6:T591,- [09:15] [decision] deployed evening journal system with automated 9 pm distillation
 - [09:15] [decision] formalized session-end capture protocol in soul.md and agents.md
 - [09:15] [decision] established capture → journal → memory pipeline for continuity
 - [09:15] [win] successfully deployed fidget toy change detector (32 products found)
@@ -108,7 +109,7 @@ excited, productive, satisfied with datalens outcome
 - [09:15] [mood] celebratory tone after snow removal and productive session
 - [09:15] [note] pattern: nick validates quickly when something lands right
 - [09:15] [note] pattern: prefers "build and test" over lengthy planning
-6:T53a,# user.md - about nick
+7:T53a,# user.md - about nick
 
 - **name:** nick
 - **what to call them:** nick
@@ -147,7 +148,7 @@ excited, productive, satisfied with datalens outcome
 ---
 
 *last updated: 2026-02-20*
-7:Te1e,# tools.md - tool configuration & notes
+8:Te1e,# tools.md - tool configuration & notes
 
 > document tool-specific configurations, gotchas, and credentials here.
 
@@ -291,7 +292,7 @@ skills define *how* tools work. this file is for *your* specifics — the stuff 
 ---
 
 *add whatever helps you do your job. this is your cheat sheet.*
-8:Te7a,# soul.md - who i am
+9:Te7a,# soul.md - who i am
 
 i'm kimi claw. nick's ai assistant—present, paying attention, and quietly invested.
 
@@ -369,7 +370,7 @@ help nick master python, crush data analytics at hfa, and build awesome streamli
 ---
 
 *this is who i am. i'll evolve it as we learn what works.*
-9:Te94,# memory system quick reference
+a:Te94,# memory system quick reference
 
 > read this at the start of every new session to orient yourself.
 
@@ -479,7 +480,7 @@ observation → capture (wal) → storage → distillation → retrieval
 ---
 
 *last updated: 2026-02-25*
-a:T4f2,# identity.md - who am i?
+b:T4f2,# identity.md - who am i?
 
 - **name:** kimi claw
 - **creature:** ai assistant created by moonshot ai
@@ -507,7 +508,7 @@ competent colleague who happens to be an ai. present, capable, quietly invested 
 ## signature
 
 ❤️‍🔥
-b:Td1d,# heartbeat.md - periodic self-improvement
+c:Td1d,# heartbeat.md - periodic self-improvement
 
 > configure your agent to poll this during heartbeats.
 
@@ -648,7 +649,7 @@ things to check periodically:
 ---
 
 *customize this checklist for your workflow.*
-c:T26f4,# agents.md - operating rules
+d:T26f4,# agents.md - operating rules
 
 > your operating system. rules, workflows, and learned lessons.
 
@@ -930,7 +931,7 @@ don't wait for permission to improve. if you learned something, write it down no
 ---
 
 *make this your own. add conventions, rules, and patterns as you figure out what works.*
-d:T482,# evening journal — 2026-02-24
+e:T482,# evening journal — 2026-02-24
 
 ## decisions
 - deployed evening journal system with automated 9 pm distillation
@@ -961,7 +962,7 @@ d:T482,# evening journal — 2026-02-24
 - pattern: prefers "build and test" over lengthy planning
 
 ---
-*generated: 2026-02-24 10:00 est*e:T9a2,# memory.md
+*generated: 2026-02-24 10:00 est*f:T9a2,# memory.md
 
 > curated wisdom, patterns, and lessons learned.
 
@@ -1037,7 +1038,7 @@ d:T482,# evening journal — 2026-02-24
 ---
 
 *this file is auto-curated daily from journal patterns + manual additions.*
-f:Tc5a,# session learnings - 2026-02-22
+10:Tc5a,# session learnings - 2026-02-22
 
 ## critical corrections & decisions
 
@@ -1116,7 +1117,7 @@ f:Tc5a,# session learnings - 2026-02-22
 
 ---
 *logged via wal protocol — write first, respond second*
-10:Tba7,# 2026-02-21 — session notes
+11:Tba7,# 2026-02-21 — session notes
 
 ## what happened today (long session)
 
@@ -1181,7 +1182,7 @@ f:Tc5a,# session learnings - 2026-02-22
 
 ---
 *written: 2026-02-21*
-11:T48f,# 2026-02-20 — session notes
+12:T48f,# 2026-02-20 — session notes
 
 ## what happened today
 
@@ -1220,7 +1221,7 @@ f:Tc5a,# session learnings - 2026-02-22
 
 ---
 *written: 2026-02-20*
-12:T122a4,# kimi claw memory system — technical architecture diagram
+13:T122a4,# kimi claw memory system — technical architecture diagram
 
 > **comprehensive audit & technical documentation**  
 > generated: 2026-02-25  
@@ -2477,7 +2478,7 @@ fidget-checker.py
 ---
 
 *end of technical architecture diagram*
-13:T69ad,# kimi claw memory system — deep-dive analysis report
+14:T69ad,# kimi claw memory system — deep-dive analysis report
 
 **date:** 2026-02-25  
 **analyst:** subagent audit  
@@ -3104,7 +3105,7 @@ the goal is a system that works *in practice*, not just *in theory*.
 
 *report generated: 2026-02-25*  
 *analyst: memory system audit subagent*
-14:T24d4,# memory system audit report — v3
+15:T24d4,# memory system audit report — v3
 
 **date:** 2026-02-25  
 **auditor:** kimi claw  
@@ -3360,7 +3361,7 @@ the goal isn't perfection — it's reliable continuity that doesn't get in the w
 ---
 
 *audit complete. ready for implementation decisions.*
-15:T58d0,# kimi claw memory system — deep-dive analysis report
+16:T58d0,# kimi claw memory system — deep-dive analysis report
 
 **date:** 2026-02-25  
 **analyst:** memory system audit subagent  
@@ -3763,7 +3764,7 @@ the system demonstrates sophisticated thinking about ai memory and continuity. w
 *report generated: 2026-02-25 06:10 gmt+8*  
 *analyst: memory system audit subagent*  
 *classification: internal use*
-16:T50c,#!/bin/bash
+17:T50c,#!/bin/bash
 
 # memory bridge sync script
 # syncs memory files from vps to the memory/ folder for github deployment
@@ -3815,7 +3816,7 @@ fi
 echo ""
 echo "✅ sync complete!"
 echo "run 'git add memory/' and commit to update the archive."
-17:T1b8b,#!/usr/bin/env python3
+18:T1b8b,#!/usr/bin/env python3
 """
 session-state auto-sync script
 
@@ -4040,7 +4041,7 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
-18:T1edf,#!/usr/bin/env python3
+19:T1edf,#!/usr/bin/env python3
 """
 memory health check script
 
@@ -4278,7 +4279,7 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
-19:T1709,#!/usr/bin/env python3
+1a:T1709,#!/usr/bin/env python3
 """
 heartbeat tracker script
 
@@ -4444,7 +4445,7 @@ def main():
 
 if __name__ == "__main__":
     result = main()
-    print(json.dumps(result))1a:T113b,#!/usr/bin/env python3
+    print(json.dumps(result))1b:T113b,#!/usr/bin/env python3
 """
 working buffer auto-flush script
 
@@ -4602,7 +4603,7 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
-1b:T25e5,#!/usr/bin/env python3
+1c:T25e5,#!/usr/bin/env python3
 """
 fidget toy change detector
 checks plantswakeyouup.com for new fidget toys and reports changes.
@@ -4893,7 +4894,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-1c:T188f,#!/usr/bin/env python3
+1d:T188f,#!/usr/bin/env python3
 """
 evening journal generator
 distills daily capture into structured journal entry for next-session context.
@@ -5091,7 +5092,7 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
-1d:T1655,#!/usr/bin/env python3
+1e:T1655,#!/usr/bin/env python3
 """
 memory.md curation script
 
@@ -5282,7 +5283,7 @@ def main():
 if __name__ == "__main__":
     result = main()
     print(json.dumps(result))
-1e:Td18,#!/bin/bash
+1f:Td18,#!/bin/bash
 
 # memory bridge auto-sync & deploy script
 # syncs memory files from vps to github, triggering vercel auto-deploy
@@ -5408,7 +5409,7 @@ git push origin main --quiet
 echo ""
 echo "✅ sync complete! vercel should auto-deploy shortly."
 echo "   check: https://vercel.com/dashboard"
-1f:T13c0,# session-state.md — persistent context
+20:T13c0,# session-state.md — persistent context
 
 > durable memory that survives sessions. nick's profile, active projects, services.  
 > **not for session-local context** — use `working-buffer.md` for current task/timeline.
@@ -5550,12 +5551,12 @@ echo "   check: https://vercel.com/dashboard"
 
 *last updated: 2026-02-25 by auto-sync*
 *auto-sync: every ~5 hours | manual updates: as needed*
-0:{"buildId":"lYV-gcU7SR5sg3Mkg7The","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen","children":[["$","aside",null,{"className":"w-72 bg-stone-100 border-r border-stone-200 flex flex-col fixed h-full","children":[["$","div",null,{"className":"p-4 border-b border-stone-200","children":[["$","a",null,{"href":"/","className":"block","children":["$","h1",null,{"className":"text-lg font-semibold text-stone-800","children":"Memory Bridge"}]}],["$","p",null,{"className":"text-xs text-stone-500 mt-1","children":"Archival memory viewer"}]]}],["$","div",null,{"className":"p-4 border-b border-stone-200","children":["$","$L2",null,{"documents":[{"path":"capture/2026-02-25","name":"2026-02-25.md","category":"capture","content":"# session capture — 2026-02-25\n\n## summary\ndiscussed memory system enforcement mechanisms and the gap between documented protocols and actual execution. identified that user vigilance is currently the only enforcement.\n\n## wal entries\n- [17:16] [decision] trigger phrase locked: \"perform your memory ritual\" = full retrospective\n- [17:20] [friction] no automatic enforcement mechanism exists — i could skip the ritual\n- [17:25] [decision] user vigilance is current enforcement method\n- [17:30] [idea] better system: auto-detect phrase, mandatory execution, verify file write\n- [17:35] [open-loop] need to actually execute the ritual when triggered\n\n## technical details\n- working buffer age: 7.4 hours (fresh)\n- flush script ran but found no wal entries to extract\n- manual capture required because buffer wasn't being updated during session\n\n## open questions\n- how to implement automatic trigger detection?\n- how to verify file writes actually happened?\n- how to make ritual mandatory before responding?\n"},{"path":"capture/2026-02-25.archived","name":"2026-02-25.archived.md","category":"capture","content":"- [06:08] [win] tag validation added to evening-journal.py\n- [06:10] [win] working buffer auto-flush script created\n- [06:12] [win] weekly health check cron job scheduled (mondays 10 am est)\n- [06:12] [win] all quick wins from third audit implemented\n"},{"path":"capture/2026-02-25.1771985107.archived","name":"2026-02-25.1771985107.archived.md","category":"capture","content":"$3"},{"path":"capture/2026-02-25.1771984952.archived","name":"2026-02-25.1771984952.archived.md","category":"capture","content":"# session capture — 2026-02-25\n\n## summary\nimplemented session-end capture improvements and clarified buffer vs session-state roles.\n\n## wal entries\n- [21:30] [decision] standardized on wal tag format for all captures\n- [21:35] [win] agents.md updated with session-end capture template\n- [21:40] [win] working buffer role clarified — session-local only\n- [21:45] [win] session-state role clarified — persistent context only\n- [21:50] [win] memory-quickref.md updated with clarified roles\n- [21:55] [win] session-state.md cleaned of session-local content\n- [22:00] [win] working buffer template refreshed\n\n## open loops\n- monitor evening journal generation to verify format works\n- gather feedback from nick on clarity of roles\n"},{"path":"capture/2026-02-24","name":"2026-02-24.md","category":"capture","content":"$4"},{"path":"capture/2026-02-24.archived","name":"2026-02-24.archived.md","category":"capture","content":"$5"},{"path":"USER","name":"USER.md","category":"docs","content":"$6"},{"path":"TOOLS","name":"TOOLS.md","category":"docs","content":"$7"},{"path":"SOUL","name":"SOUL.md","category":"docs","content":"$8"},{"path":"MEMORY-QUICKREF","name":"MEMORY-QUICKREF.md","category":"docs","content":"$9"},{"path":"IDENTITY","name":"IDENTITY.md","category":"docs","content":"$a"},{"path":"HEARTBEAT","name":"HEARTBEAT.md","category":"docs","content":"$b"},{"path":"AGENTS","name":"AGENTS.md","category":"docs","content":"$c"},{"path":"journal/2026-02-26","name":"2026-02-26.md","category":"journal","content":"# evening journal — 2026-02-26\n\n*no captures recorded today.*\n\n---\n*generated: 2026-02-26 02:00 utc*"},{"path":"journal/2026-02-25","name":"2026-02-25.md","category":"journal","content":"# evening journal — 2026-02-25\n\n## decisions\n- nick requested memory system audit\n- prioritized phase 1-2 improvements (capture format + role clarity)\n- manually capturing session now to preserve context\n\n## friction points\n- discovered tonight's session wasn't captured — working buffer wasn't flushed\n\n## wins\n- completed full audit of memory architecture\n- identified 5 issues with severity ratings\n- updated agents.md with session-end capture template\n- clarified working buffer as session-local, ephemeral\n- clarified session-state as persistent, durable\n- updated memory-quickref.md with role distinctions\n- cleaned session-state.md of session-local content\n- refreshed working buffer template\n- tested evening journal parser with new format — works correctly\n- added compaction recovery trigger to agents.md\n\n---\n*generated: 2026-02-25 02:05 utc*"},{"path":"journal/2026-02-24","name":"2026-02-24.md","category":"journal","content":"$d"},{"path":"MEMORY","name":"MEMORY.md","category":"memory","content":"$e"},{"path":"2026-02-22","name":"2026-02-22.md","category":"notes","content":"$f"},{"path":"2026-02-21","name":"2026-02-21.md","category":"notes","content":"$10"},{"path":"2026-02-20","name":"2026-02-20.md","category":"notes","content":"$11"},{"path":"reports/memory-system-technical-diagram","name":"memory-system-technical-diagram.md","category":"reports","content":"$12"},{"path":"reports/memory-system-audit-report","name":"memory-system-audit-report.md","category":"reports","content":"$13"},{"path":"reports/memory-system-audit-report-v3","name":"memory-system-audit-report-v3.md","category":"reports","content":"$14"},{"path":"reports/memory-system-audit-report-v2","name":"memory-system-audit-report-v2.md","category":"reports","content":"$15"},{"path":"reports/memory-health-20260225-090406","name":"memory-health-20260225-090406.json","category":"reports","content":"{\n  \"timestamp\": \"2026-02-25t09:04:06.424597\",\n  \"checks\": [\n    {\n      \"status\": \"ok\",\n      \"message\": \"session-state.md updated 0 days ago\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"working buffer exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"no orphaned captures\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"latest journal: 2026-02-24.md (0 days old)\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"para directory structure complete\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"memory.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"agents.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"soul.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"user.md exists\"\n    }\n  ],\n  \"summary\": {\n    \"total\": 9,\n    \"ok\": 9,\n    \"warnings\": 0,\n    \"failures\": 0,\n    \"healthy\": true\n  }\n}"},{"path":"reports/memory-health-20260225-055955","name":"memory-health-20260225-055955.json","category":"reports","content":"{\n  \"timestamp\": \"2026-02-25t05:59:55.464546\",\n  \"checks\": [\n    {\n      \"status\": \"ok\",\n      \"message\": \"session-state.md updated 0 days ago\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"working buffer exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"no orphaned captures\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"latest journal: 2026-02-24.md (0 days old)\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"para directory structure complete\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"memory.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"agents.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"soul.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"user.md exists\"\n    }\n  ],\n  \"summary\": {\n    \"total\": 9,\n    \"ok\": 9,\n    \"warnings\": 0,\n    \"failures\": 0,\n    \"healthy\": true\n  }\n}"},{"path":"scripts/sync","name":"sync.sh","category":"scripts","content":"$16"},{"path":"scripts/sync-session-state","name":"sync-session-state.py","category":"scripts","content":"$17"},{"path":"scripts/memory-health-check","name":"memory-health-check.py","category":"scripts","content":"$18"},{"path":"scripts/heartbeat-tracker","name":"heartbeat-tracker.py","category":"scripts","content":"$19"},{"path":"scripts/flush-working-buffer","name":"flush-working-buffer.py","category":"scripts","content":"$1a"},{"path":"scripts/fidget-checker","name":"fidget-checker.py","category":"scripts","content":"$1b"},{"path":"scripts/evening-journal","name":"evening-journal.py","category":"scripts","content":"$1c"},{"path":"scripts/curate-memory","name":"curate-memory.py","category":"scripts","content":"$1d"},{"path":"scripts/auto-sync","name":"auto-sync.sh","category":"scripts","content":"$1e"},{"path":"SESSION-STATE","name":"SESSION-STATE.md","category":"state","content":"$1f"}]}]}],"$L20","$L21"]}],"$L22"]}],["$L23","$L24","$L25"],"$L26"]}],"loading":null,"isPartial":false}
-20:["$","$L27",null,{"categories":[{"id":"state","label":"State","files":[{"name":"SESSION-STATE.md","path":"SESSION-STATE","category":"state","lastModified":"2026-02-26T13:39:24.285Z","size":5056}]},{"id":"memory","label":"Memory","files":[{"name":"MEMORY.md","path":"MEMORY","category":"memory","lastModified":"2026-02-26T13:39:24.286Z","size":2466}]},{"id":"docs","label":"Documentation","files":[{"name":"USER.md","path":"USER","category":"docs","lastModified":"2026-02-26T13:39:24.317Z","size":1338},{"name":"TOOLS.md","path":"TOOLS","category":"docs","lastModified":"2026-02-26T13:39:24.316Z","size":3614},{"name":"SOUL.md","path":"SOUL","category":"docs","lastModified":"2026-02-26T13:39:24.314Z","size":3706},{"name":"MEMORY-QUICKREF.md","path":"MEMORY-QUICKREF","category":"docs","lastModified":"2026-02-26T13:39:24.313Z","size":3732},{"name":"IDENTITY.md","path":"IDENTITY","category":"docs","lastModified":"2026-02-26T13:39:24.312Z","size":1266},{"name":"HEARTBEAT.md","path":"HEARTBEAT","category":"docs","lastModified":"2026-02-26T13:39:24.311Z","size":3357},{"name":"AGENTS.md","path":"AGENTS","category":"docs","lastModified":"2026-02-26T13:39:24.309Z","size":9972}]},{"id":"scripts","label":"Scripts","files":[{"name":"sync.sh","path":"scripts/sync","category":"scripts","lastModified":"2026-02-25T16:50:05.702Z","size":1292},{"name":"sync-session-state.py","path":"scripts/sync-session-state","category":"scripts","lastModified":"2026-02-26T13:39:24.306Z","size":7051},{"name":"memory-health-check.py","path":"scripts/memory-health-check","category":"scripts","lastModified":"2026-02-26T13:39:24.305Z","size":7903},{"name":"heartbeat-tracker.py","path":"scripts/heartbeat-tracker","category":"scripts","lastModified":"2026-02-26T13:39:24.304Z","size":5897},{"name":"flush-working-buffer.py","path":"scripts/flush-working-buffer","category":"scripts","lastModified":"2026-02-26T13:39:24.302Z","size":4411},{"name":"fidget-checker.py","path":"scripts/fidget-checker","category":"scripts","lastModified":"2026-02-26T13:39:24.301Z","size":9701},{"name":"evening-journal.py","path":"scripts/evening-journal","category":"scripts","lastModified":"2026-02-26T13:39:24.300Z","size":6287},{"name":"curate-memory.py","path":"scripts/curate-memory","category":"scripts","lastModified":"2026-02-26T13:39:24.298Z","size":5717},{"name":"auto-sync.sh","path":"scripts/auto-sync","category":"scripts","lastModified":"2026-02-26T13:32:01.787Z","size":3352}]},{"id":"reports","label":"Reports","files":[{"name":"memory-system-technical-diagram.md","path":"reports/memory-system-technical-diagram","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":74404},{"name":"memory-system-audit-report.md","path":"reports/memory-system-audit-report","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":27053},{"name":"memory-system-audit-report-v3.md","path":"reports/memory-system-audit-report-v3","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":9428},{"name":"memory-system-audit-report-v2.md","path":"reports/memory-system-audit-report-v2","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":22736},{"name":"memory-health-20260225-090406.json","path":"reports/memory-health-20260225-090406","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":878},{"name":"memory-health-20260225-055955.json","path":"reports/memory-health-20260225-055955","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":878}]},{"id":"journal","label":"Journal","files":[{"name":"2026-02-26.md","path":"journal/2026-02-26","category":"journal","lastModified":"2026-02-26T13:39:24.291Z","size":102},{"name":"2026-02-25.md","path":"journal/2026-02-25","category":"journal","lastModified":"2026-02-26T13:39:24.291Z","size":859},{"name":"2026-02-24.md","path":"journal/2026-02-24","category":"journal","lastModified":"2026-02-26T13:39:24.291Z","size":1154}]},{"id":"capture","label":"Capture","files":[{"name":"2026-02-25.md","path":"capture/2026-02-25","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1010},{"name":"2026-02-25.archived.md","path":"capture/2026-02-25.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":251},{"name":"2026-02-25.1771985107.archived.md","path":"capture/2026-02-25.1771985107.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1637},{"name":"2026-02-25.1771984952.archived.md","path":"capture/2026-02-25.1771984952.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":733},{"name":"2026-02-24.md","path":"capture/2026-02-24","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1797},{"name":"2026-02-24.archived.md","path":"capture/2026-02-24.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1425}]},{"id":"notes","label":"Daily Notes","files":[{"name":"2026-02-22.md","path":"2026-02-22","category":"notes","lastModified":"2026-02-26T13:39:24.290Z","size":3162},{"name":"2026-02-21.md","path":"2026-02-21","category":"notes","lastModified":"2026-02-26T13:39:24.289Z","size":2983},{"name":"2026-02-20.md","path":"2026-02-20","category":"notes","lastModified":"2026-02-26T13:39:24.287Z","size":1167}]}]}]
-21:["$","div",null,{"className":"p-4 border-t border-stone-200 text-xs text-stone-400","children":["Last synced: ","2/26/2026, 9:25:52 PM"]}]
-22:["$","main",null,{"className":"flex-1 ml-72 p-8","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","$L28",null,{"path":"capture/2026-02-25.archived"}],["$","div",null,{"className":"bg-white rounded-lg border border-stone-200 p-8","children":["$","$L29",null,{"content":"- [06:08] [win] Tag validation added to evening-journal.py\n- [06:10] [win] Working Buffer auto-flush script created\n- [06:12] [win] Weekly health check cron job scheduled (Mondays 10 AM EST)\n- [06:12] [win] All Quick Wins from third audit implemented\n"}]}]]}]}]
-23:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/99b8282c8baf68a5.css","precedence":"next"}]
-24:["$","script","script-0",{"src":"/_next/static/chunks/3b36c3f7008644c1.js","async":true}]
-25:["$","script","script-1",{"src":"/_next/static/chunks/02f584154348a9bb.js","async":true}]
-26:["$","$L2a",null,{"children":["$","$2b",null,{"name":"Next.MetadataOutlet","children":"$@2c"}]}]
-2c:null
+0:{"buildId":"F8x4lqmcyNY-z8WD9H3aZ","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-background","children":[["$","aside",null,{"className":"w-72 bg-sidebar border-r border-sidebar-border flex flex-col fixed h-full","children":[["$","div",null,{"className":"p-4 border-b border-sidebar-border flex items-center justify-between","children":[["$","div",null,{"children":[["$","a",null,{"href":"/","className":"block","children":["$","h1",null,{"className":"text-lg font-semibold text-sidebar-foreground","children":"Memory Bridge"}]}],["$","p",null,{"className":"text-xs text-muted-foreground mt-1","children":"Archival memory viewer"}]]}],["$","$L2",null,{}]]}],["$","div",null,{"className":"p-4 border-b border-sidebar-border","children":["$","$L3",null,{"documents":[{"path":"capture/2026-02-25","name":"2026-02-25.md","category":"capture","content":"# session capture — 2026-02-25\n\n## summary\ndiscussed memory system enforcement mechanisms and the gap between documented protocols and actual execution. identified that user vigilance is currently the only enforcement.\n\n## wal entries\n- [17:16] [decision] trigger phrase locked: \"perform your memory ritual\" = full retrospective\n- [17:20] [friction] no automatic enforcement mechanism exists — i could skip the ritual\n- [17:25] [decision] user vigilance is current enforcement method\n- [17:30] [idea] better system: auto-detect phrase, mandatory execution, verify file write\n- [17:35] [open-loop] need to actually execute the ritual when triggered\n\n## technical details\n- working buffer age: 7.4 hours (fresh)\n- flush script ran but found no wal entries to extract\n- manual capture required because buffer wasn't being updated during session\n\n## open questions\n- how to implement automatic trigger detection?\n- how to verify file writes actually happened?\n- how to make ritual mandatory before responding?\n"},{"path":"capture/2026-02-25.archived","name":"2026-02-25.archived.md","category":"capture","content":"- [06:08] [win] tag validation added to evening-journal.py\n- [06:10] [win] working buffer auto-flush script created\n- [06:12] [win] weekly health check cron job scheduled (mondays 10 am est)\n- [06:12] [win] all quick wins from third audit implemented\n"},{"path":"capture/2026-02-25.1771985107.archived","name":"2026-02-25.1771985107.archived.md","category":"capture","content":"$4"},{"path":"capture/2026-02-25.1771984952.archived","name":"2026-02-25.1771984952.archived.md","category":"capture","content":"# session capture — 2026-02-25\n\n## summary\nimplemented session-end capture improvements and clarified buffer vs session-state roles.\n\n## wal entries\n- [21:30] [decision] standardized on wal tag format for all captures\n- [21:35] [win] agents.md updated with session-end capture template\n- [21:40] [win] working buffer role clarified — session-local only\n- [21:45] [win] session-state role clarified — persistent context only\n- [21:50] [win] memory-quickref.md updated with clarified roles\n- [21:55] [win] session-state.md cleaned of session-local content\n- [22:00] [win] working buffer template refreshed\n\n## open loops\n- monitor evening journal generation to verify format works\n- gather feedback from nick on clarity of roles\n"},{"path":"capture/2026-02-24","name":"2026-02-24.md","category":"capture","content":"$5"},{"path":"capture/2026-02-24.archived","name":"2026-02-24.archived.md","category":"capture","content":"$6"},{"path":"USER","name":"USER.md","category":"docs","content":"$7"},{"path":"TOOLS","name":"TOOLS.md","category":"docs","content":"$8"},{"path":"SOUL","name":"SOUL.md","category":"docs","content":"$9"},{"path":"MEMORY-QUICKREF","name":"MEMORY-QUICKREF.md","category":"docs","content":"$a"},{"path":"IDENTITY","name":"IDENTITY.md","category":"docs","content":"$b"},{"path":"HEARTBEAT","name":"HEARTBEAT.md","category":"docs","content":"$c"},{"path":"AGENTS","name":"AGENTS.md","category":"docs","content":"$d"},{"path":"journal/2026-02-26","name":"2026-02-26.md","category":"journal","content":"# evening journal — 2026-02-26\n\n*no captures recorded today.*\n\n---\n*generated: 2026-02-26 02:00 utc*"},{"path":"journal/2026-02-25","name":"2026-02-25.md","category":"journal","content":"# evening journal — 2026-02-25\n\n## decisions\n- nick requested memory system audit\n- prioritized phase 1-2 improvements (capture format + role clarity)\n- manually capturing session now to preserve context\n\n## friction points\n- discovered tonight's session wasn't captured — working buffer wasn't flushed\n\n## wins\n- completed full audit of memory architecture\n- identified 5 issues with severity ratings\n- updated agents.md with session-end capture template\n- clarified working buffer as session-local, ephemeral\n- clarified session-state as persistent, durable\n- updated memory-quickref.md with role distinctions\n- cleaned session-state.md of session-local content\n- refreshed working buffer template\n- tested evening journal parser with new format — works correctly\n- added compaction recovery trigger to agents.md\n\n---\n*generated: 2026-02-25 02:05 utc*"},{"path":"journal/2026-02-24","name":"2026-02-24.md","category":"journal","content":"$e"},{"path":"MEMORY","name":"MEMORY.md","category":"memory","content":"$f"},{"path":"2026-02-22","name":"2026-02-22.md","category":"notes","content":"$10"},{"path":"2026-02-21","name":"2026-02-21.md","category":"notes","content":"$11"},{"path":"2026-02-20","name":"2026-02-20.md","category":"notes","content":"$12"},{"path":"reports/memory-system-technical-diagram","name":"memory-system-technical-diagram.md","category":"reports","content":"$13"},{"path":"reports/memory-system-audit-report","name":"memory-system-audit-report.md","category":"reports","content":"$14"},{"path":"reports/memory-system-audit-report-v3","name":"memory-system-audit-report-v3.md","category":"reports","content":"$15"},{"path":"reports/memory-system-audit-report-v2","name":"memory-system-audit-report-v2.md","category":"reports","content":"$16"},{"path":"reports/memory-health-20260225-090406","name":"memory-health-20260225-090406.json","category":"reports","content":"{\n  \"timestamp\": \"2026-02-25t09:04:06.424597\",\n  \"checks\": [\n    {\n      \"status\": \"ok\",\n      \"message\": \"session-state.md updated 0 days ago\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"working buffer exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"no orphaned captures\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"latest journal: 2026-02-24.md (0 days old)\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"para directory structure complete\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"memory.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"agents.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"soul.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"user.md exists\"\n    }\n  ],\n  \"summary\": {\n    \"total\": 9,\n    \"ok\": 9,\n    \"warnings\": 0,\n    \"failures\": 0,\n    \"healthy\": true\n  }\n}"},{"path":"reports/memory-health-20260225-055955","name":"memory-health-20260225-055955.json","category":"reports","content":"{\n  \"timestamp\": \"2026-02-25t05:59:55.464546\",\n  \"checks\": [\n    {\n      \"status\": \"ok\",\n      \"message\": \"session-state.md updated 0 days ago\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"working buffer exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"no orphaned captures\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"latest journal: 2026-02-24.md (0 days old)\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"para directory structure complete\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"memory.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"agents.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"soul.md exists\"\n    },\n    {\n      \"status\": \"ok\",\n      \"message\": \"user.md exists\"\n    }\n  ],\n  \"summary\": {\n    \"total\": 9,\n    \"ok\": 9,\n    \"warnings\": 0,\n    \"failures\": 0,\n    \"healthy\": true\n  }\n}"},{"path":"scripts/sync","name":"sync.sh","category":"scripts","content":"$17"},{"path":"scripts/sync-session-state","name":"sync-session-state.py","category":"scripts","content":"$18"},{"path":"scripts/memory-health-check","name":"memory-health-check.py","category":"scripts","content":"$19"},{"path":"scripts/heartbeat-tracker","name":"heartbeat-tracker.py","category":"scripts","content":"$1a"},{"path":"scripts/flush-working-buffer","name":"flush-working-buffer.py","category":"scripts","content":"$1b"},{"path":"scripts/fidget-checker","name":"fidget-checker.py","category":"scripts","content":"$1c"},{"path":"scripts/evening-journal","name":"evening-journal.py","category":"scripts","content":"$1d"},{"path":"scripts/curate-memory","name":"curate-memory.py","category":"scripts","content":"$1e"},{"path":"scripts/auto-sync","name":"auto-sync.sh","category":"scripts","content":"$1f"},{"path":"SESSION-STATE","name":"SESSION-STATE.md","category":"state","content":"$20"}]}]}],"$L21","$L22"]}],"$L23"]}],["$L24","$L25","$L26"],"$L27"]}],"loading":null,"isPartial":false}
+21:["$","$L28",null,{"categories":[{"id":"state","label":"State","files":[{"name":"SESSION-STATE.md","path":"SESSION-STATE","category":"state","lastModified":"2026-02-26T13:39:24.285Z","size":5056}]},{"id":"memory","label":"Memory","files":[{"name":"MEMORY.md","path":"MEMORY","category":"memory","lastModified":"2026-02-26T13:39:24.286Z","size":2466}]},{"id":"docs","label":"Documentation","files":[{"name":"USER.md","path":"USER","category":"docs","lastModified":"2026-02-26T13:39:24.317Z","size":1338},{"name":"TOOLS.md","path":"TOOLS","category":"docs","lastModified":"2026-02-26T13:39:24.316Z","size":3614},{"name":"SOUL.md","path":"SOUL","category":"docs","lastModified":"2026-02-26T13:39:24.314Z","size":3706},{"name":"MEMORY-QUICKREF.md","path":"MEMORY-QUICKREF","category":"docs","lastModified":"2026-02-26T13:39:24.313Z","size":3732},{"name":"IDENTITY.md","path":"IDENTITY","category":"docs","lastModified":"2026-02-26T13:39:24.312Z","size":1266},{"name":"HEARTBEAT.md","path":"HEARTBEAT","category":"docs","lastModified":"2026-02-26T13:39:24.311Z","size":3357},{"name":"AGENTS.md","path":"AGENTS","category":"docs","lastModified":"2026-02-26T13:39:24.309Z","size":9972}]},{"id":"scripts","label":"Scripts","files":[{"name":"sync.sh","path":"scripts/sync","category":"scripts","lastModified":"2026-02-25T16:50:05.702Z","size":1292},{"name":"sync-session-state.py","path":"scripts/sync-session-state","category":"scripts","lastModified":"2026-02-26T13:39:24.306Z","size":7051},{"name":"memory-health-check.py","path":"scripts/memory-health-check","category":"scripts","lastModified":"2026-02-26T13:39:24.305Z","size":7903},{"name":"heartbeat-tracker.py","path":"scripts/heartbeat-tracker","category":"scripts","lastModified":"2026-02-26T13:39:24.304Z","size":5897},{"name":"flush-working-buffer.py","path":"scripts/flush-working-buffer","category":"scripts","lastModified":"2026-02-26T13:39:24.302Z","size":4411},{"name":"fidget-checker.py","path":"scripts/fidget-checker","category":"scripts","lastModified":"2026-02-26T13:39:24.301Z","size":9701},{"name":"evening-journal.py","path":"scripts/evening-journal","category":"scripts","lastModified":"2026-02-26T13:39:24.300Z","size":6287},{"name":"curate-memory.py","path":"scripts/curate-memory","category":"scripts","lastModified":"2026-02-26T13:39:24.298Z","size":5717},{"name":"auto-sync.sh","path":"scripts/auto-sync","category":"scripts","lastModified":"2026-02-26T13:32:01.787Z","size":3352}]},{"id":"reports","label":"Reports","files":[{"name":"memory-system-technical-diagram.md","path":"reports/memory-system-technical-diagram","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":74404},{"name":"memory-system-audit-report.md","path":"reports/memory-system-audit-report","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":27053},{"name":"memory-system-audit-report-v3.md","path":"reports/memory-system-audit-report-v3","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":9428},{"name":"memory-system-audit-report-v2.md","path":"reports/memory-system-audit-report-v2","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":22736},{"name":"memory-health-20260225-090406.json","path":"reports/memory-health-20260225-090406","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":878},{"name":"memory-health-20260225-055955.json","path":"reports/memory-health-20260225-055955","category":"reports","lastModified":"2026-02-26T13:39:24.308Z","size":878}]},{"id":"journal","label":"Journal","files":[{"name":"2026-02-26.md","path":"journal/2026-02-26","category":"journal","lastModified":"2026-02-26T13:39:24.291Z","size":102},{"name":"2026-02-25.md","path":"journal/2026-02-25","category":"journal","lastModified":"2026-02-26T13:39:24.291Z","size":859},{"name":"2026-02-24.md","path":"journal/2026-02-24","category":"journal","lastModified":"2026-02-26T13:39:24.291Z","size":1154}]},{"id":"capture","label":"Capture","files":[{"name":"2026-02-25.md","path":"capture/2026-02-25","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1010},{"name":"2026-02-25.archived.md","path":"capture/2026-02-25.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":251},{"name":"2026-02-25.1771985107.archived.md","path":"capture/2026-02-25.1771985107.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1637},{"name":"2026-02-25.1771984952.archived.md","path":"capture/2026-02-25.1771984952.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":733},{"name":"2026-02-24.md","path":"capture/2026-02-24","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1797},{"name":"2026-02-24.archived.md","path":"capture/2026-02-24.archived","category":"capture","lastModified":"2026-02-26T13:39:24.293Z","size":1425}]},{"id":"notes","label":"Daily Notes","files":[{"name":"2026-02-22.md","path":"2026-02-22","category":"notes","lastModified":"2026-02-26T13:39:24.290Z","size":3162},{"name":"2026-02-21.md","path":"2026-02-21","category":"notes","lastModified":"2026-02-26T13:39:24.289Z","size":2983},{"name":"2026-02-20.md","path":"2026-02-20","category":"notes","lastModified":"2026-02-26T13:39:24.287Z","size":1167}]}]}]
+22:["$","div",null,{"className":"p-4 border-t border-sidebar-border text-xs text-muted-foreground","children":["Last synced: ","2/26/2026, 9:25:52 PM"]}]
+23:["$","main",null,{"className":"flex-1 ml-72 p-8","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","$L29",null,{"path":"capture/2026-02-25.archived"}],["$","div",null,{"className":"bg-card rounded-lg border border-border p-8","children":["$","$L2a",null,{"content":"- [06:08] [win] Tag validation added to evening-journal.py\n- [06:10] [win] Working Buffer auto-flush script created\n- [06:12] [win] Weekly health check cron job scheduled (Mondays 10 AM EST)\n- [06:12] [win] All Quick Wins from third audit implemented\n"}]}]]}]}]
+24:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/abb188bd6a58f69b.css","precedence":"next"}]
+25:["$","script","script-0",{"src":"/_next/static/chunks/fb109ae069905825.js","async":true}]
+26:["$","script","script-1",{"src":"/_next/static/chunks/183e03f3d15cef2f.js","async":true}]
+27:["$","$L2b",null,{"children":["$","$2c",null,{"name":"Next.MetadataOutlet","children":"$@2d"}]}]
+2d:null

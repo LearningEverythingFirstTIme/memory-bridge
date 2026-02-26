@@ -3,6 +3,7 @@ import { FileTree } from "../../components/FileTree";
 import { MarkdownViewer } from "../../components/MarkdownViewer";
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 import { SearchBox } from "../../components/SearchBox";
+import { ThemeToggle } from "../../components/ThemeToggle";
 import { getAllFiles, getFileContent, getLastSynced } from "../../lib/github";
 import { buildSearchDocuments } from "../../lib/search-server";
 
@@ -45,20 +46,23 @@ export default async function ViewerPage({
   ];
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen bg-background">
       {/* Sidebar */}
-      <aside className="w-72 bg-stone-100 border-r border-stone-200 flex flex-col fixed h-full">
-        <div className="p-4 border-b border-stone-200">
-          <a href="/" className="block">
-            <h1 className="text-lg font-semibold text-stone-800">Memory Bridge</h1>
-          </a>
-          <p className="text-xs text-stone-500 mt-1">Archival memory viewer</p>
+      <aside className="w-72 bg-sidebar border-r border-sidebar-border flex flex-col fixed h-full">
+        <div className="p-4 border-b border-sidebar-border flex items-center justify-between">
+          <div>
+            <a href="/" className="block">
+              <h1 className="text-lg font-semibold text-sidebar-foreground">Memory Bridge</h1>
+            </a>
+            <p className="text-xs text-muted-foreground mt-1">Archival memory viewer</p>
+          </div>
+          <ThemeToggle />
         </div>
-        <div className="p-4 border-b border-stone-200">
+        <div className="p-4 border-b border-sidebar-border">
           <SearchBox documents={searchDocuments} />
         </div>
         <FileTree categories={categories} />
-        <div className="p-4 border-t border-stone-200 text-xs text-stone-400">
+        <div className="p-4 border-t border-sidebar-border text-xs text-muted-foreground">
           Last synced: {lastSynced}
         </div>
       </aside>
@@ -68,7 +72,7 @@ export default async function ViewerPage({
         <div className="max-w-4xl mx-auto">
           <Breadcrumbs path={filePath} />
           
-          <div className="bg-white rounded-lg border border-stone-200 p-8">
+          <div className="bg-card rounded-lg border border-border p-8">
             <MarkdownViewer content={content} />
           </div>
         </div>
