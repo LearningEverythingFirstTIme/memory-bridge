@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 import { FileTree } from "../../components/FileTree";
 import { MarkdownViewer } from "../../components/MarkdownViewer";
 import { Breadcrumbs } from "../../components/Breadcrumbs";
+import { SearchBox } from "../../components/SearchBox";
 import { getAllFiles, getFileContent, getLastSynced } from "../../lib/github";
+import { buildSearchIndex } from "../../lib/search";
 
 // Generate static params for all files at build time
 export function generateStaticParams(): { slug: string[] }[] {
@@ -29,6 +31,8 @@ export default async function ViewerPage({
 
   const files = getAllFiles();
   const lastSynced = getLastSynced();
+  const searchIndex = buildSearchIndex();
+  const searchResults = searchIndex.search("");
 
   const categories = [
     { id: 'state', label: 'State', files: files.filter(f => f.category === 'state') },
@@ -50,6 +54,9 @@ export default async function ViewerPage({
             <h1 className="text-lg font-semibold text-stone-800">Memory Bridge</h1>
           </a>
           <p className="text-xs text-stone-500 mt-1">Archival memory viewer</p>
+        </div>
+        <div className="p-4 border-b border-stone-200">
+          <SearchBox results={searchResults} />
         </div>
         <FileTree categories={categories} />
         <div className="p-4 border-t border-stone-200 text-xs text-stone-400">
