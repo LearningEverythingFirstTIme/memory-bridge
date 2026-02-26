@@ -4,7 +4,6 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github.css";
-import "highlight.js/styles/github-dark.css";
 
 interface MarkdownViewerProps {
   content: string;
@@ -23,7 +22,7 @@ export function MarkdownViewer({ content }: MarkdownViewerProps) {
             </h1>
           ),
           h2: ({ children }) => (
-            <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">
+            <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4 pb-2 border-b border-border/50">
               {children}
             </h2>
           ),
@@ -31,6 +30,11 @@ export function MarkdownViewer({ content }: MarkdownViewerProps) {
             <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">
               {children}
             </h3>
+          ),
+          h4: ({ children }) => (
+            <h4 className="text-lg font-semibold text-foreground mt-4 mb-2">
+              {children}
+            </h4>
           ),
           p: ({ children }) => (
             <p className="text-muted-foreground leading-relaxed mb-4">{children}</p>
@@ -46,27 +50,40 @@ export function MarkdownViewer({ content }: MarkdownViewerProps) {
             </ol>
           ),
           li: ({ children }) => <li className="text-muted-foreground">{children}</li>,
-          code: ({ children, className }) => {
+          code: ({ children, className, node, ...props }) => {
             const isInline = !className;
-            return isInline ? (
-              <code className="bg-muted text-foreground px-1.5 py-0.5 rounded text-sm font-mono">
-                {children}
-              </code>
-            ) : (
-              <pre className="bg-stone-900 dark:bg-black text-stone-100 p-4 rounded-lg overflow-x-auto mb-4">
-                <code className={className}>{children}</code>
+            const isDiagram = !className && typeof children === 'string' && 
+              (children.includes('┌') || children.includes('┐') || 
+               children.includes('└') || children.includes('┘') ||
+               children.includes('│') || children.includes('─') ||
+               children.includes('►') || children.includes('▲'));
+            
+            if (isInline && !isDiagram) {
+              return (
+                <code className="bg-muted text-foreground px-1.5 py-0.5 rounded text-sm font-mono">
+                  {children}
+                </code>
+              );
+            }
+            
+            // For diagrams and code blocks
+            return (
+              <pre className={`${isDiagram ? 'bg-muted/50' : 'bg-stone-900 dark:bg-black'} p-4 rounded-lg overflow-x-auto mb-4`}>
+                <code className={`${className || ''} ${isDiagram ? 'text-foreground font-mono text-sm' : 'text-stone-100'}`} {...props}>
+                  {children}
+                </code>
               </pre>
             );
           },
           blockquote: ({ children }) => (
-            <blockquote className="border-l-4 border-border pl-4 italic text-muted-foreground mb-4">
+            <blockquote className="border-l-4 border-primary/50 pl-4 italic text-muted-foreground mb-4 bg-muted/30 py-2 pr-4 rounded-r">
               {children}
             </blockquote>
           ),
           a: ({ children, href }) => (
             <a
               href={href}
-              className="text-foreground underline hover:text-primary"
+              className="text-primary underline hover:text-primary/80 font-medium"
               target={href?.startsWith("http") ? "_blank" : undefined}
               rel={href?.startsWith("http") ? "noopener noreferrer" : undefined}
             >
@@ -74,22 +91,33 @@ export function MarkdownViewer({ content }: MarkdownViewerProps) {
             </a>
           ),
           table: ({ children }) => (
-            <table className="w-full border-collapse mb-4">{children}</table>
+            <div className="overflow-x-auto mb-4">
+              <table className="w-full border-collapse text-sm">{children}</table>
+            </div>
           ),
           thead: ({ children }) => (
             <thead className="bg-muted">{children}</thead>
           ),
           th: ({ children }) => (
-            <th className="border border-border px-4 py-2 text-left font-semibold text-foreground">
+            <th className="border border-border px-3 py-2 text-left font-semibold text-foreground">
               {children}
             </th>
           ),
           td: ({ children }) => (
-            <td className="border border-border px-4 py-2 text-muted-foreground">
+            <td className="border border-border px-3 py-2 text-muted-foreground">
               {children}
             </td>
           ),
-          hr: () => <hr className="border-border my-6" />,
+          tr: ({ children }) => (
+            <tr className="even:bg-muted/30">{children}</tr>
+          ),
+          hr: () => <hr className="border-border my-8" />,
+          strong: ({ children }) => (
+            <strong className="font-semibold text-foreground">{children}</strong>
+          ),
+          em: ({ children }) => (
+            <em className="italic text-foreground/90">{children}</em>
+          ),
         }}
       >
         {content}
