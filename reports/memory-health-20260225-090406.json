@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-02-25T09:04:06.424597",
+  "checks": [
+    {
+      "status": "OK",
+      "message": "SESSION-STATE.md updated 0 days ago"
+    },
+    {
+      "status": "OK",
+      "message": "Working Buffer exists"
+    },
+    {
+      "status": "OK",
+      "message": "No orphaned captures"
+    },
+    {
+      "status": "OK",
+      "message": "Latest journal: 2026-02-24.md (0 days old)"
+    },
+    {
+      "status": "OK",
+      "message": "PARA directory structure complete"
+    },
+    {
+      "status": "OK",
+      "message": "MEMORY.md exists"
+    },
+    {
+      "status": "OK",
+      "message": "AGENTS.md exists"
+    },
+    {
+      "status": "OK",
+      "message": "SOUL.md exists"
+    },
+    {
+      "status": "OK",
+      "message": "USER.md exists"
+    }
+  ],
+  "summary": {
+    "total": 9,
+    "ok": 9,
+    "warnings": 0,
+    "failures": 0,
+    "healthy": true
+  }
+}
