@@ -1,27 +1,20 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { SearchResult } from "../lib/search";
+import { SearchDocument, searchDocuments } from "../lib/search";
 
 interface SearchBoxProps {
-  results: SearchResult[];
+  documents: SearchDocument[];
 }
 
-export function SearchBox({ results }: SearchBoxProps) {
+export function SearchBox({ documents }: SearchBoxProps) {
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   
   const filteredResults = useMemo(() => {
     if (!query.trim()) return [];
-    
-    const normalizedQuery = query.toLowerCase().trim();
-    return results
-      .filter(r => 
-        r.name.toLowerCase().includes(normalizedQuery) ||
-        r.excerpt.toLowerCase().includes(normalizedQuery)
-      )
-      .slice(0, 10);
-  }, [query, results]);
+    return searchDocuments(documents, query).slice(0, 10);
+  }, [query, documents]);
   
   const highlightMatch = (text: string, query: string) => {
     if (!query.trim()) return text;
@@ -45,6 +38,7 @@ export function SearchBox({ results }: SearchBoxProps) {
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" 
           />
         </svg>
+        
         <input
           type="text"
           placeholder="Search memory..."
