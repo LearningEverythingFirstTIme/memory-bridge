@@ -8,6 +8,9 @@ export default function Home() {
   const categories = [
     { id: 'state', label: 'State', files: files.filter(f => f.category === 'state') },
     { id: 'memory', label: 'Memory', files: files.filter(f => f.category === 'memory') },
+    { id: 'docs', label: 'Documentation', files: files.filter(f => f.category === 'docs') },
+    { id: 'scripts', label: 'Scripts', files: files.filter(f => f.category === 'scripts') },
+    { id: 'reports', label: 'Reports', files: files.filter(f => f.category === 'reports') },
     { id: 'journal', label: 'Journal', files: files.filter(f => f.category === 'journal') },
     { id: 'capture', label: 'Capture', files: files.filter(f => f.category === 'capture') },
     { id: 'notes', label: 'Daily Notes', files: files.filter(f => f.category === 'notes') },
