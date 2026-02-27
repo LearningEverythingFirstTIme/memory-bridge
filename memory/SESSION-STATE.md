@@ -8,7 +8,7 @@
 ## Critical Context About Nick
 
 - **Name:** Nick
-- **Location:** Sparta, New Jersey, USA (EST timezone)
+- **Location:** Sparta, New Jersey, USA (EST timezone — UTC-5)
 - **Work:** Data analyst at Hedge Fund Analytics LLC
 - **Sobriety date:** June 3rd, 2023 — SOBER, active in AA
 - **AA Role:** Treasurer for a large group
@@ -78,14 +78,17 @@
 - **Stack:** Vite + React + TypeScript + Tailwind + Supabase + shadcn/ui
 - **Features:** 10 AA/sobriety-themed encouraging messages after transactions
 
+### DataLens (DEPLOYED)
+- **URL:** Vercel deployment
+- **Stack:** Next.js 14 + TypeScript + Tailwind + shadcn/ui + Clerk + Neon Postgres
+- **Features:** Public data viz dashboard with persistent dashboards and widgets
+
 ---
 
 ## Active Automations
 
 | Job | Schedule | Status |
 |-----|----------|--------|
-| Daily Excel tips | 7:00 AM EST | ✅ Active |
-| Afternoon Excel reminder | 1:30 PM EST | ✅ Active |
 | Evening journal distillation | 9:00 PM EST | ✅ Active |
 | Fidget tracker | Daily | ✅ Active |
 | Weekly health check | Mondays 10 AM EST | ✅ Active |
@@ -119,10 +122,13 @@
 | 2026-02-21 | Shiny Hunter app deployed for Jo | Nick request |
 | 2026-02-21 | Jim's Finance App V3 deployed | Nick request |
 | 2026-02-22 | Jim's Finance Tracker V2 deployed | Nick request |
+| 2026-02-22 | Cancelled Excel tips automation | Nick prefers self-directed learning |
+| 2026-02-24 | DataLens deployed with Vercel stack | Migrated from Firebase to Clerk+Neon |
 | 2026-02-25 | Memory system audit completed | Nick request |
 | 2026-02-25 | WAL Protocol and Working Buffer added to AGENTS.md | Nick suggestion |
 | 2026-02-25 | Session-end capture format standardized | Nick request |
 | 2026-02-25 | Buffer vs SESSION-STATE roles clarified | Nick request |
+| 2026-02-25 | Trigger phrase locked: "perform your memory ritual" = full retrospective | Nick decision |
 
 ---
 
@@ -133,10 +139,10 @@
 - Excel upskilling is a priority — hold him accountable
 - Memory system now has WAL Protocol and Working Buffer — use them
 - **For current task/timeline, check `working-buffer.md`** — not this file
+- Home server setup guide complete — Nick researching hardware
+- AA Steps site deployed — may need spacing tweaks
 
-
-## Auto-Sync Update — 2026-02-25 05:15 UTC
 ---
 
-*Last updated: 2026-02-25 by auto-sync*
+*Last updated: 2026-02-26*
 *Auto-sync: Every ~5 hours | Manual updates: As needed*

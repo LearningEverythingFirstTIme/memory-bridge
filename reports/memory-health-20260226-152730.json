@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-02-26T15:27:30.414422+00:00",
+  "checks": [
+    {
+      "status": "FAIL",
+      "message": "SESSION-STATE.md does not exist"
+    },
+    {
+      "status": "FAIL",
+      "message": "Working Buffer MISSING"
+    },
+    {
+      "status": "OK",
+      "message": "No capture directory"
+    },
+    {
+      "status": "WARN",
+      "message": "Journal directory does not exist"
+    },
+    {
+      "status": "OK",
+      "message": "PARA directory structure complete"
+    },
+    {
+      "status": "OK",
+      "message": "MEMORY.md exists"
+    },
+    {
+      "status": "OK",
+      "message": "AGENTS.md exists"
+    },
+    {
+      "status": "OK",
+      "message": "SOUL.md exists"
+    },
+    {
+      "status": "OK",
+      "message": "USER.md exists"
+    }
+  ],
+  "summary": {
+    "total": 9,
+    "ok": 6,
+    "warnings": 1,
+    "failures": 2,
+    "healthy": false
+  }
+}
