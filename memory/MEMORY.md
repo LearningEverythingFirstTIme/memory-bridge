@@ -115,6 +115,8 @@
 | AA Steps Site | 2026-02-22 | Static site | Vercel | Conference-approved literature only |
 | DataLens | 2026-02-24 | Next.js + Clerk + Neon Postgres | Vercel | Public data viz dashboard |
 | **The Silence Bureau** | **2026-02-27** | **Next.js + TypeScript + Tailwind** | **CYOA.vercel.app** | **Interactive fiction platform - PRIORITY PROJECT** |
+| **AA Companion** | **2026-03-02** | **React + Vite + TS + Tailwind + Zustand** | **github.com/LearningEverythingFirstTIme/AA-Companion** | **ONGOING PRIORITY - The "everything AA" app** |
+| **Jim's Treasury Tracker** | **2026-03-02** | **SvelteKit + Firebase + Tailwind** | **Local** | **PRIORITY - Deploy tomorrow, Jim's new treasurer app** |
 
 ### The Silence Bureau - Key Details
 **Status:** LIVE AND ACTIVE - Major ongoing project
@@ -137,6 +139,89 @@
 - Separate hooks from components (useTypewriter vs ParagraphTypewriter)
 - Vercel deployment requires proper Next.js config
 **Nick's Intent:** Wants to do "a LOT of work on this app" - treat as ongoing priority
+
+### AA Companion - ACTIVE DEVELOPMENT PROJECT
+**Status:** ONGOING PRIORITY - Scaffolded 2026-03-02, continuous development expected
+**Repository:** https://github.com/LearningEverythingFirstTIme/AA-Companion
+**Local Path:** /root/.openclaw/workspace/aa-companion
+**Purpose:** The "everything AA" app - unified companion for alcoholics attending AA meetings
+**Vision:** Single app for meetings, reflections, treasury, and spiritual practice
+**Architecture:**
+- React + Vite + TypeScript
+- Tailwind CSS with neo-brutalist design
+- Zustand for state management
+- LocalStorage persistence (Firebase planned for future)
+**Core Modules:**
+1. **Daily Reflections** - 365 daily readings with calendar navigation and favorites
+2. **Meeting Tracker** - Add/edit meetings, check-ins, streak calculation, history
+3. **Treasury Management** - Contributions/expenses ledger, balance tracking
+4. **Sobriety Calculator** - Days sober, milestone tracking (1 day to 20 years)
+5. **Literature Reference** - 12 Steps, 12 Traditions, prayers, searchable
+**Design:** Neo-brutalist aesthetic - bold coral (#FF6B6B), teal (#4ECDC4), yellow (#FFE66D), hard shadows, sharp corners
+**Key Technical Notes:**
+- Requires postcss.config.js for Tailwind CSS processing
+- Uses localStorage key: 'aa-companion-storage'
+- Mobile-first with bottom tab navigation
+**Nick's Intent:** This is an ongoing project that will be built upon over time. Treat as active priority alongside Silence Bureau.
+
+### Jim's Treasury Tracker - NEW PRIORITY PROJECT
+**Status:** COMPLETE - Ready for deployment 2026-03-03 (morning/early afternoon)
+**Location:** `/root/.openclaw/workspace/jim-treasury-tracker/`
+**Repository:** Not yet pushed (deploy to Vercel tomorrow)
+**Purpose:** Help Jim be the best AA treasurer ever - manage two separate group treasuries
+**Groups:**
+1. **Matt Talbot** - Retreat organization, high volume, sporadic ($3-4k/quarter, twice yearly bursts)
+2. **Sunday Night** - Regular AA meeting, low volume, steady ($200-300/quarter)
+**Architecture:**
+- SvelteKit framework
+- Firebase Auth (email/password) + Firestore
+- Tailwind CSS with warm sage/amber palette
+- Mobile-first design (large touch targets for phone use at meetings)
+**Key Features:**
+- Secure authentication with isolated user data
+- Two separate treasury screens (no combined dashboard)
+- Quick transaction entry (amount, type, category, note, date)
+- Prominent balance display with gradient card
+- Recent transactions list with delete
+- Category breakdown visual
+- Custom categories per treasury
+**Default Categories:**
+- Income: Donation, Meeting Contributions, Fundraiser, Other Income
+- Expense: Rent, Literature, Coffee/Refreshments, Supplies, Group Activities, Other Expense
+**Intentionally Excluded:** Exports, CSV, PDF, budgeting, notifications (can add later if needed)
+**Next Steps:**
+- Create Firebase project
+- Enable Email/Password auth
+- Set up Firestore database
+- Configure environment variables
+- Deploy to Vercel
+- Share with Jim for testing
+**Future Potential:** If Jim likes it, Nick may recommend to other AA treasurers and use it himself
+
+### Visual-Explainer Skill - INSTALLED & ACTIVE
+**Location:** `/root/.openclaw/skills/visual-explainer/`
+**Source:** https://github.com/nicobailon/visual-explainer
+**Purpose:** Generate beautiful, self-contained HTML architecture diagrams instead of ASCII art
+**Status:** Active - Nick calls this a "game-changer" for understanding app architecture
+**How It Works:**
+- Reads SKILL.md for design principles and templates
+- Generates single HTML files with inline CSS/JS
+- Uses Mermaid.js for diagrams (flowcharts, ER diagrams, sequences)
+- Supports light/dark themes via `prefers-color-scheme`
+**Templates Available:**
+- `architecture.html` - CSS Grid card layouts
+- `mermaid-flowchart.html` - Flowcharts, sequences, ER diagrams
+- `data-table.html` - Structured data tables
+- `slide-deck.html` - Presentation slides
+**Diagrams Created:**
+1. AA Companion architecture (React + Vite + Zustand)
+2. AA Tracker V2 architecture (React 19 + Firebase + GSAP)
+3. Finance Tracker for Jim architecture (SvelteKit + Supabase)
+4. Jim's Treasury Tracker architecture (pending - build just completed)
+**When to Use:**
+- User asks for "diagram of X" or "explain how Y works"
+- Presenting complex tables (4+ rows/columns)
+- Architecture reviews, project recaps, plan reviews
 
 ### Active Automations
 | Job | Schedule | Status |
@@ -170,6 +255,7 @@
 - AA Steps site — may need spacing tweaks
 - Fidget tracker — monitoring for first detection
 - Mom onboarding — when she's ready
+- **AA Companion** — ongoing development, add features over time as Nick directs
 
 ### Nick's Goals
 - Continue learning Python
