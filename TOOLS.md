@@ -34,6 +34,18 @@ Add notes about tool configurations as needed.
 
 ---
 
+### ClawHub CLI
+
+**Status:** Not authenticated. Rate limits hit after 3-5 requests.
+
+**Workaround:** Install skills directly from GitHub repos when needed. Manually downloaded skills work fine from `/root/.openclaw/skills/`.
+
+**Current skills available:**
+- `/root/.openclaw/skills/` (user-installed): frontend-design, proactive-agent, todoist, visual-explainer, notion, himalaya, nano-banana-pro
+- `/usr/lib/node_modules/openclaw/skills/` (system): clawhub, skill-creator, tmux, weather, discord, healthcheck
+
+---
+
 ### Git Push Issues - Subdirectory Projects
 
 **Problem:** Git push hangs/times out when trying to push a project subdirectory to a new GitHub repo.
